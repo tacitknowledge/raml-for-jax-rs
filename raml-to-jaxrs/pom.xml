@@ -18,6 +18,9 @@
      <url>https://repo-master.tacitknowledge.com/nexus/content/repositories/tacit</url>
    </repository>
   </distributionManagement>
+  <scm>
+    <developerConnection>scm:git:ssh://git@github.com:tacitknowledge/raml-for-jax-rs.git</developerConnection>
+  </scm>
     <properties>
         <licensePath>LICENSE_HEADER.txt</licensePath>
     </properties>
