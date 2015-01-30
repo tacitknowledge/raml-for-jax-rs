@@ -13,17 +13,10 @@
         <module>examples/jersey-example</module>
     </modules>
  <distributionManagement>
-       <repository>
-            <id>mule-ee-releases</id>
-            <name>Mule Release Repository</name>                                               
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/ci-releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>mule-snapshots</id>
-            <name>Mule Snapshot Repository</name>
-            <url>https://repository-master.mulesoft.org/nexus/content/repositories/ci-snapshots</url>
-            <uniqueVersion>false</uniqueVersion>
-        </snapshotRepository>
+   <repository>
+     <id>tk-public</id>
+     <url>https://repo-master.tacitknowledge.com/nexus/content/repositories/tacit</url>
+   </repository>
   </distributionManagement>
     <properties>
         <licensePath>LICENSE_HEADER.txt</licensePath>
